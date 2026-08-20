@@ -12,6 +12,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*shared styling */
 .container {
     width: min(80%, 1200px);
@@ -135,6 +139,15 @@ header ul {
     gap: 24px;
 }
 
+header nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: cornflowerblue;
+}
+
 .code-card {
     display: grid;
     min-height: 150px;
@@ -247,6 +260,15 @@ header ul {
 
 .contact-form button:hover {
     background-color: #4f7fd4;
+}
+
+/* Projects styling */
+.projects {
+    text-align: center;
+}
+
+.projects h2 {
+    margin-bottom: 12px;
 }
 
 /* Footer styling */
